@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url("images/bgImageCar.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 80px;
+    height: 100px;
+    align-items: center;
+}
+.items{
+    display: flex;
+    gap: 30px;
+}
+.drive{
+    color: #D4AF37;
+}
